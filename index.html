@@ -42,20 +42,24 @@
                         href="about.html">про мене</a>
                     <a class="flex min-w-0 flex-1 items-center justify-center whitespace-nowrap bg-blue-400 px-2 py-3 text-center text-purple-100 transition hover:bg-blue-100 hover:text-black sm:px-4"
                         href="portfolio.html">портфоліо</a>
+                    <!-- <a href="javascript:history.back()">back</a>
+                    <a href="/"></a>
+                    <h1 onclick="history.back()"></h1> -->
                 </nav>
             </header>
         </div>
 
         <main class="flex-1">
 
+            <!-- block -->
             <div class="waterfall-grid p-4">
 
-                <div class="grid-span-1 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded">
-                    <h3 class="font-bold text-lg mb-2">Блок 1</h3>
-                    <p class="text-sm text-gray-700">Звичайний блок стандартного розміру.</p>
+                <div class="grid-span-2x1 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded">
+                    <h3 class="font-bold text-lg mb-2">йо</h3>
+                    <p class="text-sm text-gray-700"> мене звати Назар. Цей вебсайт є хабом моєї творчості та проєктів за час моєї медійної діяльності. загалом зручно мати свій особистий сайт якраз для таких речей хддд</p>
                 </div>
 
-                <div class="grid-span-2x1 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded">
+                <div class="grid-span-1 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded">
                     <h3 class="font-bold text-lg mb-2">Блок 2 (2x ширина)</h3>
                     <p class="text-sm text-gray-700">Широкий блок для баннерів або важливої інформації.</p>
                 </div>
@@ -75,7 +79,8 @@
                 </div>
 
                 <div
-                    class="grid-span-1x2 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded flex flex-col justify-between">
+                    class="grid-span-1x2 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded flex flex-col justify-between"
+                    onclick="window.open('/portfolio.html', '_self')">
                     <div>
                         <h3 class="font-bold text-lg mb-3 p-4">Галерея</h3>
                     </div>
@@ -88,32 +93,51 @@
                     </div>
 
                 </div>
-
+                
             </div>
 
             <div class="links p-4">
-                <a href="https://x.com/kork0za"
+                <a target="_blank" href="https://x.com/kork0za"
                     class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
                     class="fa-brands fa-x-twitter" aria-hidden="true"></i><span>твітер</span></a>
 
-                <a href="https://www.instagram.com/kork0za/"
+                <a target="_blank" href="https://www.instagram.com/kork0za/"
                     class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
                     class="fa-brands fa-instagram" aria-hidden="true"></i><span>інста</span></a>
 
-                <a href="youtube" class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
+                <a target="_blank" href="youtube" class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
                         class="fa-brands fa-youtube" aria-hidden="true"></i><span>youtube</span></a>
 
-                <a href="twitch" class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
+                <a target="_blank" href="twitch" class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
                         class="fa-brands fa-twitch" aria-hidden="true"></i><span>twitch</span></a>
             </div>
 
         </main>
 
+        <!-- <br>
+        <hr> -->
 
-
-        <footer
-            class="mt-8 bg-blue-400 w-full min-h-[150px] text-blue-100 flex-col flex justify-center item items-center">
-            все налеєжить мені 2026 с
+        <footers
+            class="mt-8 bg-blue-400 w-full min-h-[150px] text-blue-100 flex-col flex item p-4">
+            <div class="flex flex-1">
+            <div class="w-1/2 flex min-w-0 flex-1 whitespace-nowrap text-center">
+                
+            </div>
+            <div class="w-1/2">
+                    <a class="flex min-w-0 flex-1 whitespace-nowrap text-center text-blue-100"
+                        href="index.html" aria-current="page">головна</a>
+                    <a class="flex min-w-0 flex-1 whitespace-nowrap text-center text-blue-100"
+                        href="about.html">про мене</a>
+                    <a class="flex min-w-0 flex-1 whitespace-nowrap text-center text-blue-100"
+                        href="portfolio.html">портфоліо</a>
+            </div>
+            </div>
+            <div class="w-full text-center justify-center items-center">
+                <br>
+                <hr>
+                <br>
+                все налеєжить мені 2026 с
+            </div>
         </footer>
     </div>
 
